@@ -12,16 +12,12 @@
 body {
     font-size: 1.6rem;
     background-color: #f2f3f7;
-    height: 200vh;
 }
 
 
 /* navbar start */
 .navbar {
     background-color: #f85606;
-    /* position: sticky;
-    top: 0;
-    width: 100%; */
 }
 
 .n-up {
@@ -33,12 +29,12 @@ body {
 .n-up ul {
     display: flex;
     list-style: none;
-    margin-left: 1em;
+    margin-left: 1.5vw;
 }
 
 .n-up ul li {
     font-size: 1.1vw;
-    margin: 0.5em 1em;
+    margin: 0.7vw 1.2vw;
     cursor: pointer;
     /* border: 1px solid black; */
 }
@@ -51,11 +47,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 1em;
+    margin-right: 1.6vw;
     background-color: #ad3c04;
-    padding: 0.2em 0.8em;
-    border-bottom-left-radius: 0.9rem;
-    border-bottom-right-radius: 0.9rem;
+    padding: 0.7vw 0.95vw;
+    border-bottom-left-radius: 0.9vw;
+    border-bottom-right-radius: 0.9vw;
     cursor: pointer;
 }
 
@@ -65,7 +61,7 @@ body {
 
 .nu-right span {
     font-size: 1.1vw;
-    padding-left: 0.7em;
+    padding-left: 0.8vw;
 }
 
 .n-down {
@@ -73,9 +69,9 @@ body {
     list-style: none;
     color: #FFFFFF;
     align-items: center;
-    gap: 1em;
-    margin: 0em 1em;
-    padding: 0em 0em 0.5em 0.5em;
+    gap: 1.2vw;
+    margin: 0vw 1.2vw;
+    padding: 0vw 0vw 0.6vw 0.6vw;
 }
 
 .nd-ele {
@@ -87,12 +83,12 @@ body {
 }
 
 .nde-cat {
-    padding: 0.7em 0.1em 0.7em 1em;
-    border-radius: 0.7rem;
+    padding: 0.9vw 0.2vw 0.9vw 1.2vw;
+    border-radius: 0.8vw;
 }
 
 .nde-cat span {
-    margin-left: 1em;
+    margin-left: 1vw;
 }
 
 .nde-logo {
@@ -108,14 +104,14 @@ body {
 }
 
 #nde-down-arrow {
-    margin-left: 0.3em;
-    margin-bottom: 0.2em;
+    margin-left: 0.5vw;
+    margin-bottom: 0.2vw;
     /* align-items: center; */
     border: solid #FFFFFF;
-    border-width: 0em .14em .14em 0em;
+    border-width: 0vw .25vw .26vw 0vw;
     display: inline-block;
     /* size of arrow */
-    padding: 0.15em;
+    padding: 0.2vw;
     /* to rotate the arrow */
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -168,8 +164,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5vw;
-    padding: 0.5em 0.3em;
-    border-radius: 0.7vw;
+    padding: 0.6vw 0.4vw;
+    border-radius: 0.8vw;
 }
 
 .nde-login:hover {
@@ -183,8 +179,8 @@ body {
 
 .nde-signup {
     flex: 1;
-    padding: 0.7em 0.5em;
-    border-radius: 0.7rem;
+    padding: 0.7vw 0.5vw;
+    border-radius: 0.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,12 +192,12 @@ body {
 
 .nde-en {
     flex: 0.5;
-    padding: 0.7em 0.5em;
-    border-radius: 0.7rem;
+    padding: 0.7vw 0.5vw;
+    border-radius: 0.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.3em;
+    gap: 0.4vw;
 }
 
 .nde-en:hover {
@@ -214,14 +210,14 @@ body {
 }
 
 #nde-en-arrow {
-    font-size: 0.8em;
+    font-size: 0.9vw;
     transform: rotate(180deg);
 }
 
 .nde-cart {
     flex: 0.5;
-    padding: 0.7em 0.5em;
-    border-radius: 0.7rem;
+    padding: 0.7vw 0.5vw;
+    border-radius: 0.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,7 +420,7 @@ body {
 /* product flex boxes start */
 
 .pro-ban-row {
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 1vw;
     display: flex;
     justify-content: left;
@@ -521,3 +517,202 @@ body {
     font-size: 1.1vw;
     color: #424242;
 }
+
+/* product grid start */
+#h1_before_grid {
+    margin: 3vw 0vw 2vw 1vw;
+    font-weight: 500;
+    
+}
+
+.grid {
+    margin: 1vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-auto-rows: auto;
+    grid-gap: 1vw;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+}
+/* product grid start */
+
+
+/* footer start */
+footer {
+    margin: 1vw;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/* .footer-child {
+    border: 2px solid;
+} */
+
+footer div h2 {
+    font-size: 1.7vw;
+    color: #f85606;
+    padding: 2vw 0vw 1vw 0vw;
+    font-weight: 500;
+}
+
+footer div {
+    list-style: none;
+}
+
+footer div li {
+    font-size: 1.2vw;
+}
+
+.fc3-d-inter ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.3vw 0vw;
+}
+
+.fc3-d-inter li {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.fc3-d-inter li img {
+    width: 2.5vw;
+}
+
+.fc3-d-inter li span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fc-box li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fc3-d-payment img {
+    width: 3vw;
+}
+
+.fc3-d-payment img:hover {
+    cursor: pointer;
+}
+
+.fc3-d-payment ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* gap: 0vw 0.5vw; */
+    place-items: center;
+}
+
+.fc3-d-payment ul :nth-child(1) {
+    width: 4vw;
+}
+
+.fc3-d-payment ul :nth-child(2) {
+    width: 2.5vw;
+}
+
+.fc3-d-payment ul :nth-child(4) {
+    width: 1.8vw;
+}
+
+.fc3-d-payment ul :nth-child(5) {
+    width: 4vw;
+}
+
+.fc3-d-payment ul :nth-child(7) {
+    width: 1.8vw;
+}
+
+.fc3-d-payment ul :nth-child(9) {
+    width: 4vw;
+}
+
+.fc3-verified img {
+    width: 8vw;
+}
+
+.fc3-verified img:hover {
+    cursor: pointer;
+}
+
+.fc4 ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 8vw 8vw;
+    justify-content: center;
+    align-content: center;
+}
+
+.fc4 ul img {
+    cursor: pointer;
+}
+
+.fc4 ul img:nth-child(1){
+    width: 7vw;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.fc4 ul img:nth-child(2){
+    width: 7vw;
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: self-start;
+}
+
+.fc4 ul img:nth-child(3){
+    width: 7vw;
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self:self-end;
+}
+
+.fc4-happy {
+    display: flex;
+    margin-top: 3.5vw;
+    margin-bottom: 1.4vw;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1.3vw;
+}
+
+.fc4-happy span img {
+    /* padding: 0vw 1vw; */
+    width: 2.5vw;
+}
+
+.fc4-happy div p:nth-child(1) {
+    color: #f45903;
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+
+.fc4-happy div p:nth-child(2) {
+    font-size: 1.1vw;
+}
+
+.fc4-happy div p:nth-child(2):hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fc4f-imgs {
+    display: flex;
+    gap: 0.8vw;
+}
+
+.fc4f-imgs img {
+    width: 2.2vw;
+    cursor: pointer;
+}
+
+
+/* footer end */
